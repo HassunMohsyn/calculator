@@ -51,23 +51,26 @@ code {
   }
 }
 .buttons {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  position: relative;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   width: 300px;
-  height: 350px;
   background-color: #333;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px 5px rgb(60, 57, 57);
+  padding: 20px 10px;
 }
 .buttons input {
   width: 100%;
-  position: absolute;
-  top: 0;
   height: 50px;
   font-size: 45px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 10px;
 }
 .buttons ul {
   width: 100%;
@@ -79,17 +82,32 @@ code {
   justify-content: center;
 }
 .buttons ul li {
-  width: 25%;
+  width: calc(25% - 15px);
+  background-color: #555;
+  margin: 5px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 0px 6px 20px 5px #0e0c0c;
 }
 .buttons ul li button {
-  width: 90%;
-  background-color: #555;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: #282727;
   color: white;
   border: none;
   border-radius: 5px;
   margin: 5px;
   padding: 10px;
   cursor: pointer;
+  border-radius: 50%;
+  text-align: center;
+  box-shadow: inset 0px 0px 12px 0px #a09696;
 }
 .buttons ul li button:hover {
   background-color: #777;
@@ -101,10 +119,12 @@ code {
   background-color: #FFC0CB;
 }
 .buttons ul .equal {
-  width: 50%;
+  width: calc(50% - 15px);
 }
 .buttons ul .equal button {
   background-color: #135a5c;
+  width: 100px;
+  border-radius: 30px;
 }
 .buttons ul .equal button:hover {
   background-color: cadetblue;
@@ -114,4 +134,7 @@ code {
   background: linear-gradient(120deg, darkblue, rgb(202, 40, 239));
   width: 100%;
   height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }/*# sourceMappingURL=index.css.map */
