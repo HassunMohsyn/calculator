@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # calculator
 =======
 # test
@@ -74,3 +75,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 >>>>>>> 26481c4 (Initialize project using Create React App)
 >>>>>>> 9b90d24 (first commit)
+=======
+# calculator
+>>>>>>> 9bd1387 (push all project)
