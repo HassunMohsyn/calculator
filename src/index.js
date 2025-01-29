@@ -1,10 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+<<<<<<< HEAD
 import './all.css';
 import './all.min.css';
 import App from './components/App/App';
 import './all.min.css';
+=======
+import App from './components/App/App'
+>>>>>>> a57a517 (Initial commit for hosting the project on Git)
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

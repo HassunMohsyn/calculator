@@ -1,13 +1,22 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> a57a517 (Initial commit for hosting the project on Git)
 body,* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
+<<<<<<< HEAD
   // font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
   //   'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
   //   sans-serif;
+=======
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+>>>>>>> a57a517 (Initial commit for hosting the project on Git)
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -21,6 +30,7 @@ code {
 
 
 @import './components/App/App';
+<<<<<<< HEAD
 @import './components/Buttons/Buttons';
 
 *{
@@ -48,3 +58,6 @@ code {
     monospace;
 }
 
+=======
+@import './components/Buttons/Buttons'
+>>>>>>> a57a517 (Initial commit for hosting the project on Git)
