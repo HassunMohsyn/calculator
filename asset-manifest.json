@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/HassunMohsyn/calculator.git/static/css/main.e0517158.css",
+    "main.js": "/HassunMohsyn/calculator.git/static/js/main.1c0beaf7.js",
+    "static/js/453.1ddafd9f.chunk.js": "/HassunMohsyn/calculator.git/static/js/453.1ddafd9f.chunk.js",
+    "index.html": "/HassunMohsyn/calculator.git/index.html",
+    "main.e0517158.css.map": "/HassunMohsyn/calculator.git/static/css/main.e0517158.css.map",
+    "main.1c0beaf7.js.map": "/HassunMohsyn/calculator.git/static/js/main.1c0beaf7.js.map",
+    "453.1ddafd9f.chunk.js.map": "/HassunMohsyn/calculator.git/static/js/453.1ddafd9f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e0517158.css",
+    "static/js/main.1c0beaf7.js"
+  ]
+}
