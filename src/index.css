@@ -1,13 +1,117 @@
-body {
+body, * {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.buttons {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 350px;
+  background-color: #333;
+}
+.buttons input {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  height: 50px;
+  font-size: 45px;
+}
+.buttons ul {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.buttons ul li {
+  width: 25%;
+}
+.buttons ul li button {
+  width: 90%;
+  background-color: #555;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+.buttons ul li button:hover {
+  background-color: #777;
+}
+.buttons ul li .operator {
+  background-color: red;
+}
+.buttons ul li .operator:hover {
+  background-color: #FFC0CB;
+}
+.buttons ul .equal {
+  width: 50%;
+}
+.buttons ul .equal button {
+  background-color: #135a5c;
+}
+.buttons ul .equal button:hover {
+  background-color: cadetblue;
+}
+
+.body {
+  background: linear-gradient(120deg, darkblue, rgb(202, 40, 239));
+  width: 100%;
+  height: 100vh;
+}/*# sourceMappingURL=index.css.map */
