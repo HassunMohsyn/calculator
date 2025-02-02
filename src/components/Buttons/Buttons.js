@@ -6,9 +6,9 @@ export default function Buttons() {
     const [btnNumber, setBtn] = useState('');
 
     const handleButtonClick = (value) => {
-        if (value === 'ac') {
+        if (value === 'c') {
             setBtn(''); // Clear all
-        } else if (value === 'c') {
+        } else if (value === 'ac') {
             setBtn(btnNumber.slice(0, -1)); // Remove last character
             
         } else {
