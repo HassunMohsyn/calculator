@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 body,* {
   margin: 0;
   padding: 0;
@@ -21,8 +21,7 @@ code {
 
 
 @import './components/App/App';
-@import './components/Buttons/Buttons'
-=======
+@import './components/Buttons/Buttons';
 @import "./components/Chat/Chat";
 @import "./components/Header/Header";
 @import "./components/SideBar/SideBar";
@@ -59,4 +58,4 @@ code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
->>>>>>> 9d2f0a8 (firts commit)
+

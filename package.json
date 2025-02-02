@@ -1,11 +1,7 @@
 {
   "name": "calculator",
   "version": "0.1.0",
-<<<<<<< HEAD
   "homepage": "https://HassunMohsyn.github.io/calculator/",
-=======
-  "homepage": "https://github.com/HassunMohsyn/test.git",
->>>>>>> 9d2f0a8 (firts commit)
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
