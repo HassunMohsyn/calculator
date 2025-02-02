@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-<<<<<<< HEAD
 import './all.css';
 import './all.min.css';
 import App from './components/App/App';
@@ -12,21 +11,14 @@ import reportWebVitals from './reportWebVitals';
 // import SideBar from "./components/SideBar/SideBar";
 // import Footer from './components/Footer/Footer'
 // import Chat from "./components/Chat/Chat";
-=======
-import App from './App';
-import reportWebVitals from './reportWebVitals';
->>>>>>> 9b90d24 (first commit)
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-<<<<<<< HEAD
     {/* <Header />
     <SideBar />
     <Chat />
     <Footer /> */}
-=======
->>>>>>> 9b90d24 (first commit)
     <App />
   </React.StrictMode>
 );
