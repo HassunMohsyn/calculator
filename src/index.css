@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,100&family=Orbitron:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,100&family=Orbitron:wght@400&display=swap");
 body, * {
   margin: 0;
   padding: 0;
@@ -50,9 +52,11 @@ code {
     transform: rotate(360deg);
   }
 }
+* {
+  font-family: "Orbitron", serif;
+}
+
 .buttons {
-<<<<<<< HEAD
-<<<<<<< HEAD
   position: relative;
   display: flex;
   flex-direction: column;
@@ -114,37 +118,6 @@ code {
   border: none;
   color: white;
   margin: 5px;
-=======
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-=======
-  position: relative;
->>>>>>> 017484f (push all project)
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  width: 300px;
-  background-color: #333;
-  border-radius: 10px;
-  box-shadow: 0 5px 20px 5px rgb(60, 57, 57);
-  padding: 20px 10px;
-}
-.buttons input {
-  width: 100%;
-  height: 50px;
-  font-size: 45px;
-<<<<<<< HEAD
->>>>>>> a57a517 (Initial commit for hosting the project on Git)
-=======
-  background-color: transparent;
-  border: none;
-  outline: none;
-  color: white;
-  padding: 10px;
->>>>>>> 017484f (push all project)
 }
 .buttons ul {
   width: 100%;
@@ -154,7 +127,6 @@ code {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-<<<<<<< HEAD
   background: #1f2226;
   padding: 10px 0px;
   border-radius: 10px;
@@ -178,7 +150,137 @@ code {
   width: 40px;
   height: 40px;
   background-color: #282727;
-=======
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+  text-align: center;
+  box-shadow: inset 0px 0px 12px 0px #a09696;
+}
+.buttons ul li button:hover {
+  background-color: #777;
+}
+.buttons ul li .operator {
+  background-color: red;
+}
+.buttons ul li .operator:hover {
+  background-color: #FFC0CB;
+}
+.buttons ul .equal {
+  width: calc(50% - 15px);
+}
+.buttons ul .equal button {
+  background-color: #135a5c;
+  width: 100px;
+  border-radius: 30px;
+}
+.buttons ul .equal button:hover {
+  background-color: cadetblue;
+}
+
+.body {
+  background: linear-gradient(120deg, darkblue, rgb(202, 40, 239));
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+* {
+  font-family: "Orbitron", serif;
+}
+
+.buttons {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 300px;
+  background-color: #333;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px 5px rgb(60, 57, 57);
+  padding: 20px 10px;
+}
+.buttons .title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.buttons .title h1 {
+  width: 60%;
+  font-size: 20px;
+}
+.buttons .title .color {
+  width: 40%;
+  background-color: red;
+  height: 40px;
+  margin: 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+.buttons .title .color span {
+  width: 25%;
+  border: 1px solid black;
+  height: 50%;
+  box-shadow: inset -13px -1px 20px 0px black;
+}
+.buttons .input-container {
+  border-radius: 10px;
+  background-color: #444;
+  padding: 0 10px;
+  margin: 5px 0;
+}
+.buttons .input-container p {
+  background-color: transparent;
+  width: 100%;
+  height: 40px;
+  text-align: left;
+}
+.buttons .input-container input, .buttons .input-container h1 {
+  outline: none;
+  width: 100%;
+  height: 50px;
+  font-size: 45px;
+  font-weight: 400;
+  background-color: transparent;
+  border: none;
+  color: white;
+  margin: 5px;
+}
+.buttons ul {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background: #1f2226;
+  padding: 10px 0px;
+  border-radius: 10px;
+  box-shadow: 2px -1px 20px 0px #635d5d inset;
 }
 .buttons ul li {
   width: calc(25% - 15px);
@@ -192,36 +294,21 @@ code {
   box-shadow: 0px 6px 20px 5px #0e0c0c;
 }
 .buttons ul li button {
-<<<<<<< HEAD
-  width: 90%;
-  background-color: #555;
->>>>>>> a57a517 (Initial commit for hosting the project on Git)
-=======
   display: flex;
   align-items: center;
   justify-content: center;
   width: 40px;
   height: 40px;
   background-color: #282727;
->>>>>>> 017484f (push all project)
   color: white;
   border: none;
   border-radius: 5px;
   margin: 5px;
   padding: 10px;
   cursor: pointer;
-<<<<<<< HEAD
-<<<<<<< HEAD
   border-radius: 50%;
   text-align: center;
   box-shadow: inset 0px 0px 12px 0px #a09696;
-=======
->>>>>>> a57a517 (Initial commit for hosting the project on Git)
-=======
-  border-radius: 50%;
-  text-align: center;
-  box-shadow: inset 0px 0px 12px 0px #a09696;
->>>>>>> 017484f (push all project)
 }
 .buttons ul li button:hover {
   background-color: #777;
@@ -233,28 +320,12 @@ code {
   background-color: #FFC0CB;
 }
 .buttons ul .equal {
-<<<<<<< HEAD
-<<<<<<< HEAD
   width: calc(50% - 15px);
 }
 .buttons ul .equal button {
   background-color: #135a5c;
   width: 100px;
   border-radius: 30px;
-=======
-  width: 50%;
-}
-.buttons ul .equal button {
-  background-color: #135a5c;
->>>>>>> a57a517 (Initial commit for hosting the project on Git)
-=======
-  width: calc(50% - 15px);
-}
-.buttons ul .equal button {
-  background-color: #135a5c;
-  width: 100px;
-  border-radius: 30px;
->>>>>>> 017484f (push all project)
 }
 .buttons ul .equal button:hover {
   background-color: cadetblue;
@@ -264,45 +335,7 @@ code {
   background: linear-gradient(120deg, darkblue, rgb(202, 40, 239));
   width: 100%;
   height: 100vh;
-<<<<<<< HEAD
-<<<<<<< HEAD
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-* {
-  padding: 0;
-  margin: 0;
-}
-
-i {
-  color: #6b705b;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-li {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
-=======
->>>>>>> a57a517 (Initial commit for hosting the project on Git)
-=======
-  display: flex;
-  align-items: center;
-  justify-content: center;
->>>>>>> 017484f (push all project)
 }/*# sourceMappingURL=index.css.map */

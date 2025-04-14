@@ -1,19 +1,7 @@
 {
   "name": "calculator",
   "version": "0.1.0",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
   "homepage": "https://HassunMohsyn.github.io/calculator/",
-=======
-  "homepage": "https://github.com/HassunMohsyn/whats-react.git",
->>>>>>> 66b6714 ( second)
-=======
-  "homepage": "https://github.com/HassunMohsyn/calculator.git",
->>>>>>> e477798 (push a calculator)
-=======
-  "homepage": "https://HassunMohsyn.github.io/calculator/",
->>>>>>> 9bd1387 (push all project)
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
