@@ -59,11 +59,12 @@ export default function Buttons() {
                 </div>
 
                 <div className="input-container">
-                    <input
+                    {/* <input
                         type="text"
                         value={btnNumber}
                         onChange={e => setBtn(e.target.value)}
-                    />
+                    /> */}
+                    <h1>{btnNumber}</h1>
                     <p>{result}</p>
                 </div>
 
